@@ -22,3 +22,13 @@ A 561-feature vector with time and frequency domain variables.
 Its activity label.
 
 An identifier of the subject who carried out the experiment.
+
+## Implementation plan
+
+This project trains a machine learning model using a custom pipeline. It supports data ingestion, preprocessing, training, evaluation, and deployment through a REST API.
+
+### Project Structure
+- `src/` contains all core logic
+- `config/` stores configuration files
+- `notebooks/` includes exploratory notebooks
+- `scripts/` automates training and deployment
